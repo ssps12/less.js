@@ -7,6 +7,9 @@ node_js:
 install:
   - npm install -g grunt-cli
   - travis_retry npm install
+arch:
+  - amd64
+  - arm64
 env:
   global:
     - secure: TrNVruWYaUK5ALga1y7wRY+MLjWJECUSCsBmKW5EUmIevOUxqHWu7M89FANKxstEeFRRAGH3QJbloRxnzIgh0U0ah5npE9XA1bYXGO5khoXeIyk7pNRfjIo8aEnJH1Vp8vWA6J6ovxdJ7lCFKEGvGKxGde50knVl7KFVVULlX2U=
